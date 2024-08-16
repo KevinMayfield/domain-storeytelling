@@ -17,94 +17,74 @@
   },
   "dst": [
     {
-      "type": "domainStory:actorPerson",
-      "name": "Patient",
-      "id": "shape_3490",
+      "type": "domainStory:workObjectDocument",
+      "name": "discharge report",
+      "id": "shape_5796",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 449,
-      "y": 63
+      "x": 1553,
+      "y": -47
+    },
+    {
+      "type": "domainStory:actorGroup",
+      "name": "Patients other care providers",
+      "id": "shape_4579",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1723,
+      "y": -7
     },
     {
       "type": "domainStory:workObjectDocument",
-      "name": "complaint",
-      "id": "shape_2804",
+      "name": "discharge report",
+      "id": "shape_1426",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 687,
-      "y": 102
+      "x": 1672,
+      "y": -197
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "discharge report",
+      "id": "shape_3257",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1143,
+      "y": -147
+    },
+    {
+      "type": "domainStory:actorSystem",
+      "name": "Electronic Document Management System",
+      "id": "shape_4734",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1382,
+      "y": -137
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "consultations",
+      "id": "shape_7686",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1082,
+      "y": -27
     },
     {
       "type": "domainStory:actorPerson",
       "name": "Practitioner",
-      "id": "shape_9102",
+      "id": "shape_7400",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 937,
-      "y": 132
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "questions around complaint",
-      "id": "shape_6797",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 647,
-      "y": 192
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "answers",
-      "id": "shape_6925",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 547,
-      "y": 332
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "consultation",
-      "id": "shape_2786",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1117,
-      "y": 132
-    },
-    {
-      "type": "domainStory:actorSystem",
-      "name": "Electronic Patient Record",
-      "id": "shape_5768",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1337,
-      "y": 132
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "consultation record (data)",
-      "id": "shape_3252",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1197,
-      "y": 322
-    },
-    {
-      "type": "domainStory:actorGroup",
-      "name": "All other Practitioners",
-      "id": "shape_6633",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1187,
-      "y": 482
+      "x": 923,
+      "y": -67
     },
     {
       "type": "domainStory:workObjectDocument",
@@ -113,23 +93,63 @@
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 1397,
-      "y": 322
+      "x": 1502,
+      "y": 142
     },
     {
       "type": "domainStory:actorGroup",
-      "name": "Patients other care providers",
-      "id": "shape_0632",
+      "name": "All other Practitioners",
+      "id": "shape_6633",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 1397,
-      "y": 472
+      "x": 1972,
+      "y": 12
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "consultation record (data)",
+      "id": "shape_3252",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1452,
+      "y": 271
+    },
+    {
+      "type": "domainStory:actorSystem",
+      "name": "Electronic Patient Record",
+      "id": "shape_5768",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1262,
+      "y": 82
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "consultations",
+      "id": "shape_2786",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 1082,
+      "y": 142
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "Many Practitioners",
+      "id": "shape_9102",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 902,
+      "y": 232
     },
     {
       "type": "domainStory:activity",
-      "name": "describes",
-      "id": "connection_2043",
+      "name": "record",
+      "id": "connection_9698",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -138,205 +158,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 531,
-            "y": 108
+            "x": 940,
+            "y": 270
           },
-          "x": 531,
-          "y": 108
+          "x": 968,
+          "y": 256
         },
         {
           "original": {
-            "x": 687,
-            "y": 134
+            "x": 1120,
+            "y": 180
           },
-          "x": 687,
-          "y": 134
-        }
-      ],
-      "source": "shape_3490",
-      "target": "shape_2804",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "to",
-      "id": "connection_2953",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": null,
-      "waypoints": [
-        {
-          "original": {
-            "x": 771,
-            "y": 146
-          },
-          "x": 771,
-          "y": 146
-        },
-        {
-          "original": {
-            "x": 937,
-            "y": 165
-          },
-          "x": 937,
-          "y": 165
-        }
-      ],
-      "source": "shape_2804",
-      "target": "shape_9102",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "asks",
-      "id": "connection_1136",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": 2,
-      "waypoints": [
-        {
-          "original": {
-            "x": 937,
-            "y": 178
-          },
-          "x": 937,
-          "y": 178
-        },
-        {
-          "original": {
-            "x": 719,
-            "y": 222
-          },
-          "x": 719,
-          "y": 222
-        }
-      ],
-      "source": "shape_9102",
-      "target": "shape_6797",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "to",
-      "id": "connection_7165",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": null,
-      "waypoints": [
-        {
-          "original": {
-            "x": 647,
-            "y": 207
-          },
-          "x": 647,
-          "y": 207
-        },
-        {
-          "original": {
-            "x": 513,
-            "y": 127
-          },
-          "x": 513,
-          "y": 127
-        }
-      ],
-      "source": "shape_6797",
-      "target": "shape_3490",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "responds with",
-      "id": "connection_6959",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": 3,
-      "waypoints": [
-        {
-          "original": {
-            "x": 499,
-            "y": 141
-          },
-          "x": 499,
-          "y": 146
-        },
-        {
-          "original": {
-            "x": 554,
-            "y": 332
-          },
-          "x": 554,
-          "y": 332
-        }
-      ],
-      "source": "shape_3490",
-      "target": "shape_6925",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "to",
-      "id": "connection_8148",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": null,
-      "waypoints": [
-        {
-          "original": {
-            "x": 613,
-            "y": 356
-          },
-          "x": 613,
-          "y": 356
-        },
-        {
-          "original": {
-            "x": 937,
-            "y": 194
-          },
-          "x": 937,
-          "y": 194
-        }
-      ],
-      "source": "shape_6925",
-      "target": "shape_9102",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "records",
-      "id": "connection_9698",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": 4,
-      "waypoints": [
-        {
-          "original": {
-            "x": 1018,
-            "y": 170
-          },
-          "x": 1018,
-          "y": 170
-        },
-        {
-          "original": {
-            "x": 1117,
-            "y": 170
-          },
-          "x": 1117,
-          "y": 170
+          "x": 1082,
+          "y": 199
         }
       ],
       "source": "shape_9102",
@@ -355,19 +189,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 1194,
-            "y": 167
+            "x": 1120,
+            "y": 180
           },
-          "x": 1194,
+          "x": 1150,
           "y": 167
         },
         {
           "original": {
-            "x": 1337,
-            "y": 155
+            "x": 1299,
+            "y": 102
           },
-          "x": 1337,
-          "y": 155
+          "x": 1262,
+          "y": 118
         }
       ],
       "source": "shape_2786",
@@ -382,23 +216,23 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 5,
+      "number": 2,
       "waypoints": [
         {
           "original": {
-            "x": 1337,
-            "y": 217
+            "x": 1300,
+            "y": 120
           },
-          "x": 1337,
-          "y": 217
+          "x": 1324,
+          "y": 148
         },
         {
           "original": {
-            "x": 1246,
-            "y": 329
+            "x": 1469,
+            "y": 318
           },
-          "x": 1246,
-          "y": 329
+          "x": 1452,
+          "y": 298
         }
       ],
       "source": "shape_5768",
@@ -417,19 +251,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 1227,
-            "y": 407
+            "x": 1490,
+            "y": 309
           },
-          "x": 1227,
-          "y": 425.75
+          "x": 1518,
+          "y": 294
         },
         {
           "original": {
-            "x": 1214,
-            "y": 482
+            "x": 1992,
+            "y": 49
           },
-          "x": 1214,
-          "y": 482
+          "x": 1972,
+          "y": 59
         }
       ],
       "source": "shape_3252",
@@ -444,23 +278,23 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 6,
+      "number": 3,
       "waypoints": [
         {
           "original": {
-            "x": 1387,
-            "y": 209
+            "x": 1300,
+            "y": 120
           },
-          "x": 1387,
-          "y": 228
+          "x": 1341,
+          "y": 130
         },
         {
           "original": {
-            "x": 1422,
-            "y": 322
+            "x": 1539,
+            "y": 179
           },
-          "x": 1422,
-          "y": 322
+          "x": 1502,
+          "y": 170
         }
       ],
       "source": "shape_5768",
@@ -469,8 +303,39 @@
     },
     {
       "type": "domainStory:activity",
-      "name": "notification to",
-      "id": "connection_5319",
+      "name": "reads",
+      "id": "connection_5995",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 4,
+      "waypoints": [
+        {
+          "original": {
+            "x": 961,
+            "y": -29
+          },
+          "x": 1002,
+          "y": -19
+        },
+        {
+          "original": {
+            "x": 1120,
+            "y": 10
+          },
+          "x": 1082,
+          "y": 1
+        }
+      ],
+      "source": "shape_7400",
+      "target": "shape_7686",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "on",
+      "id": "connection_8387",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -479,23 +344,240 @@
       "waypoints": [
         {
           "original": {
-            "x": 1441,
-            "y": 406
+            "x": 1120,
+            "y": 11
           },
-          "x": 1441,
-          "y": 406
+          "x": 1152,
+          "y": 31
         },
         {
           "original": {
-            "x": 1450,
-            "y": 482
+            "x": 1282,
+            "y": 110
           },
-          "x": 1450,
-          "y": 482
+          "x": 1262,
+          "y": 98
+        }
+      ],
+      "source": "shape_7686",
+      "target": "shape_5768",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "writes",
+      "id": "connection_6387",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 5,
+      "waypoints": [
+        {
+          "original": {
+            "x": 961,
+            "y": -29
+          },
+          "x": 991,
+          "y": -41
+        },
+        {
+          "original": {
+            "x": 1180,
+            "y": -120
+          },
+          "x": 1143,
+          "y": -105
+        }
+      ],
+      "source": "shape_7400",
+      "target": "shape_3257",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "and stores on",
+      "id": "connection_7473",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1181,
+            "y": -109
+          },
+          "x": 1227,
+          "y": -105
+        },
+        {
+          "original": {
+            "x": 1402,
+            "y": -90
+          },
+          "x": 1382,
+          "y": -92
+        }
+      ],
+      "source": "shape_3257",
+      "target": "shape_4734",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "shares",
+      "id": "connection_5652",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 6,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1420,
+            "y": -99
+          },
+          "x": 1454,
+          "y": -107
+        },
+        {
+          "original": {
+            "x": 1709,
+            "y": -170
+          },
+          "x": 1672,
+          "y": -161
+        }
+      ],
+      "source": "shape_4734",
+      "target": "shape_1426",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "sends",
+      "id": "connection_7968",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 7,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1420,
+            "y": -99
+          },
+          "x": 1454,
+          "y": -82
+        },
+        {
+          "original": {
+            "x": 1580,
+            "y": -20
+          },
+          "x": 1553,
+          "y": -33
+        }
+      ],
+      "source": "shape_4734",
+      "target": "shape_5796",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "notification to",
+      "id": "connection_0738",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1591,
+            "y": -9
+          },
+          "x": 1632,
+          "y": 2
+        },
+        {
+          "original": {
+            "x": 1740,
+            "y": 30
+          },
+          "x": 1723,
+          "y": 26
+        }
+      ],
+      "source": "shape_5796",
+      "target": "shape_4579",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "with",
+      "id": "connection_3612",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1710,
+            "y": -159
+          },
+          "x": 1741,
+          "y": -139
+        },
+        {
+          "original": {
+            "x": 2020,
+            "y": 40
+          },
+          "x": 1976,
+          "y": 12
+        }
+      ],
+      "source": "shape_1426",
+      "target": "shape_6633",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "notification to",
+      "id": "connection_6280",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 1540,
+            "y": 180
+          },
+          "x": 1566,
+          "y": 164
+        },
+        {
+          "original": {
+            "x": 1750,
+            "y": 48
+          },
+          "x": 1723,
+          "y": 65
         }
       ],
       "source": "shape_7122",
-      "target": "shape_0632",
+      "target": "shape_4579",
       "multipleNumberAllowed": false
     },
     {

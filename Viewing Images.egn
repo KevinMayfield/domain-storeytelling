@@ -17,119 +17,109 @@
   },
   "dst": [
     {
-      "type": "domainStory:actorPerson",
-      "name": "Patient",
-      "id": "shape_3490",
+      "type": "domainStory:actorSystem",
+      "name": "Repository",
+      "id": "shape_7572",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 449,
+      "x": 482,
+      "y": 402
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Image Instance",
+      "id": "shape_3537",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 473,
+      "y": 253
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Image Study or Report",
+      "id": "shape_8370",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 303,
+      "y": 273
+    },
+    {
+      "type": "domainStory:actorSystem",
+      "name": "Repository",
+      "id": "shape_0646",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 803,
+      "y": 323
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Image Study or Report",
+      "id": "shape_1700",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 622,
+      "y": 252
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "imaging study and reports",
+      "id": "shape_7637",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 652,
+      "y": 92
+    },
+    {
+      "type": "domainStory:actorSystem",
+      "name": "Document Registry",
+      "id": "shape_4426",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "x": 782,
       "y": 63
     },
     {
       "type": "domainStory:workObjectDocument",
       "name": "complaint",
-      "id": "shape_2804",
+      "id": "shape_9506",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 687,
-      "y": 102
+      "x": 292,
+      "y": 132
     },
     {
       "type": "domainStory:actorPerson",
       "name": "Practitioner",
-      "id": "shape_9102",
+      "id": "shape_7689",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 937,
-      "y": 132
+      "x": 472,
+      "y": 102
     },
     {
-      "type": "domainStory:workObjectDocument",
-      "name": "questions around complaint",
-      "id": "shape_6797",
+      "type": "domainStory:actorPerson",
+      "name": "Patient",
+      "id": "shape_3155",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "x": 647,
-      "y": 192
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "answers",
-      "id": "shape_6925",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 547,
-      "y": 332
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "consultation",
-      "id": "shape_2786",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1117,
-      "y": 132
-    },
-    {
-      "type": "domainStory:actorSystem",
-      "name": "Electronic Patient Record",
-      "id": "shape_5768",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1337,
-      "y": 132
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "consultation record (data)",
-      "id": "shape_3252",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1197,
-      "y": 322
-    },
-    {
-      "type": "domainStory:actorGroup",
-      "name": "All other Practitioners",
-      "id": "shape_6633",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1187,
-      "y": 482
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "encounter",
-      "id": "shape_7122",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1397,
-      "y": 322
-    },
-    {
-      "type": "domainStory:actorGroup",
-      "name": "Patients other care providers",
-      "id": "shape_0632",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "x": 1397,
-      "y": 472
+      "x": 112,
+      "y": 152
     },
     {
       "type": "domainStory:activity",
-      "name": "describes",
-      "id": "connection_2043",
+      "name": "presents",
+      "id": "connection_7755",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -138,29 +128,29 @@
       "waypoints": [
         {
           "original": {
-            "x": 531,
-            "y": 108
+            "x": 150,
+            "y": 190
           },
-          "x": 531,
-          "y": 108
+          "x": 188,
+          "y": 186
         },
         {
           "original": {
-            "x": 687,
-            "y": 134
+            "x": 330,
+            "y": 170
           },
-          "x": 687,
-          "y": 134
+          "x": 292,
+          "y": 174
         }
       ],
-      "source": "shape_3490",
-      "target": "shape_2804",
+      "source": "shape_3155",
+      "target": "shape_9506",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
       "name": "to",
-      "id": "connection_2953",
+      "id": "connection_7267",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -169,29 +159,29 @@
       "waypoints": [
         {
           "original": {
-            "x": 771,
-            "y": 146
+            "x": 330,
+            "y": 170
           },
-          "x": 771,
-          "y": 146
+          "x": 364,
+          "y": 162
         },
         {
           "original": {
-            "x": 937,
-            "y": 165
+            "x": 500,
+            "y": 130
           },
-          "x": 937,
-          "y": 165
+          "x": 472,
+          "y": 137
         }
       ],
-      "source": "shape_2804",
-      "target": "shape_9102",
+      "source": "shape_9506",
+      "target": "shape_7689",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
-      "name": "asks",
-      "id": "connection_1136",
+      "name": "finds",
+      "id": "connection_8386",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -200,29 +190,29 @@
       "waypoints": [
         {
           "original": {
-            "x": 937,
-            "y": 178
+            "x": 510,
+            "y": 140
           },
-          "x": 937,
-          "y": 178
+          "x": 550,
+          "y": 137
         },
         {
           "original": {
-            "x": 719,
-            "y": 222
+            "x": 680,
+            "y": 129
           },
-          "x": 719,
-          "y": 222
+          "x": 652,
+          "y": 131
         }
       ],
-      "source": "shape_9102",
-      "target": "shape_6797",
+      "source": "shape_7689",
+      "target": "shape_7637",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
-      "name": "to",
-      "id": "connection_7165",
+      "name": "",
+      "id": "connection_7417",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -231,29 +221,28 @@
       "waypoints": [
         {
           "original": {
-            "x": 647,
-            "y": 207
+            "x": 690,
+            "y": 130
           },
-          "x": 647,
-          "y": 207
+          "x": 724,
+          "y": 122
         },
         {
           "original": {
-            "x": 513,
-            "y": 127
+            "x": 810,
+            "y": 100
           },
-          "x": 513,
-          "y": 127
+          "x": 782,
+          "y": 107
         }
       ],
-      "source": "shape_6797",
-      "target": "shape_3490",
-      "multipleNumberAllowed": false
+      "source": "shape_7637",
+      "target": "shape_4426"
     },
     {
       "type": "domainStory:activity",
-      "name": "responds with",
-      "id": "connection_6959",
+      "name": "views",
+      "id": "connection_0572",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -262,29 +251,29 @@
       "waypoints": [
         {
           "original": {
-            "x": 499,
-            "y": 141
+            "x": 510,
+            "y": 140
           },
-          "x": 499,
-          "y": 146
+          "x": 536,
+          "y": 166
         },
         {
           "original": {
-            "x": 554,
-            "y": 332
+            "x": 660,
+            "y": 290
           },
-          "x": 554,
-          "y": 332
+          "x": 622,
+          "y": 252
         }
       ],
-      "source": "shape_3490",
-      "target": "shape_6925",
+      "source": "shape_7689",
+      "target": "shape_1700",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
-      "name": "to",
-      "id": "connection_8148",
+      "name": "",
+      "id": "connection_1098",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -293,91 +282,28 @@
       "waypoints": [
         {
           "original": {
-            "x": 613,
-            "y": 356
+            "x": 660,
+            "y": 290
           },
-          "x": 613,
-          "y": 356
+          "x": 698,
+          "y": 303
         },
         {
           "original": {
-            "x": 937,
-            "y": 194
+            "x": 830,
+            "y": 350
           },
-          "x": 937,
-          "y": 194
+          "x": 803,
+          "y": 340
         }
       ],
-      "source": "shape_6925",
-      "target": "shape_9102",
-      "multipleNumberAllowed": false
+      "source": "shape_1700",
+      "target": "shape_0646"
     },
     {
       "type": "domainStory:activity",
-      "name": "records",
-      "id": "connection_9698",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": 4,
-      "waypoints": [
-        {
-          "original": {
-            "x": 1018,
-            "y": 170
-          },
-          "x": 1018,
-          "y": 170
-        },
-        {
-          "original": {
-            "x": 1117,
-            "y": 170
-          },
-          "x": 1117,
-          "y": 170
-        }
-      ],
-      "source": "shape_9102",
-      "target": "shape_2786",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "on",
-      "id": "connection_3130",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "number": null,
-      "waypoints": [
-        {
-          "original": {
-            "x": 1194,
-            "y": 167
-          },
-          "x": 1194,
-          "y": 167
-        },
-        {
-          "original": {
-            "x": 1337,
-            "y": 155
-          },
-          "x": 1337,
-          "y": 155
-        }
-      ],
-      "source": "shape_2786",
-      "target": "shape_5768",
-      "multipleNumberAllowed": false
-    },
-    {
-      "type": "domainStory:activity",
-      "name": "shares",
-      "id": "connection_9253",
+      "name": "Uses",
+      "id": "connection_7121",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -386,29 +312,29 @@
       "waypoints": [
         {
           "original": {
-            "x": 1337,
-            "y": 217
+            "x": 510,
+            "y": 140
           },
-          "x": 1337,
-          "y": 217
+          "x": 472,
+          "y": 178
         },
         {
           "original": {
-            "x": 1246,
-            "y": 329
+            "x": 350,
+            "y": 300
           },
-          "x": 1246,
-          "y": 329
+          "x": 361,
+          "y": 289
         }
       ],
-      "source": "shape_5768",
-      "target": "shape_3252",
+      "source": "shape_7689",
+      "target": "shape_8370",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
-      "name": "with",
-      "id": "connection_8330",
+      "name": "to provide care for",
+      "id": "connection_3830",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -417,60 +343,60 @@
       "waypoints": [
         {
           "original": {
-            "x": 1227,
-            "y": 407
+            "x": 341,
+            "y": 311
           },
-          "x": 1227,
-          "y": 425.75
+          "x": 303,
+          "y": 291
         },
         {
           "original": {
-            "x": 1214,
-            "y": 482
+            "x": 150,
+            "y": 210
           },
-          "x": 1214,
-          "y": 482
+          "x": 171,
+          "y": 221
         }
       ],
-      "source": "shape_3252",
-      "target": "shape_6633",
+      "source": "shape_8370",
+      "target": "shape_3155",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
-      "name": "sends",
-      "id": "connection_7629",
+      "name": "views",
+      "id": "connection_2641",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "pickedColor": "black",
-      "number": 6,
+      "pickedColor": "rgba(0,0,0,0.48)",
+      "number": 4,
       "waypoints": [
         {
           "original": {
-            "x": 1387,
-            "y": 209
+            "x": 510,
+            "y": 140
           },
-          "x": 1387,
-          "y": 228
+          "x": 510,
+          "y": 187
         },
         {
           "original": {
-            "x": 1422,
-            "y": 322
+            "x": 510,
+            "y": 300
           },
-          "x": 1422,
-          "y": 322
+          "x": 510,
+          "y": 253
         }
       ],
-      "source": "shape_5768",
-      "target": "shape_7122",
+      "source": "shape_7689",
+      "target": "shape_3537",
       "multipleNumberAllowed": false
     },
     {
       "type": "domainStory:activity",
-      "name": "notification to",
-      "id": "connection_5319",
+      "name": "",
+      "id": "connection_0054",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
@@ -479,27 +405,26 @@
       "waypoints": [
         {
           "original": {
-            "x": 1441,
-            "y": 406
+            "x": 511,
+            "y": 291
           },
-          "x": 1441,
-          "y": 406
+          "x": 517,
+          "y": 337
         },
         {
           "original": {
-            "x": 1450,
-            "y": 482
+            "x": 529,
+            "y": 439
           },
-          "x": 1450,
-          "y": 482
+          "x": 525,
+          "y": 402
         }
       ],
-      "source": "shape_7122",
-      "target": "shape_0632",
-      "multipleNumberAllowed": false
+      "source": "shape_3537",
+      "target": "shape_7572"
     },
     {
-      "info": ""
+      "info": "https://health.ec.europa.eu/document/download/0079ad26-8f8f-435b-9472-3cd8625f4220_en?filename=ehn_mi_guidelines_en.pdf"
     },
     {
       "version": "2.0.1"
