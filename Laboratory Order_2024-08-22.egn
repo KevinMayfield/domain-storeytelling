@@ -17,92 +17,14 @@
   },
   "dst": [
     {
-      "type": "domainStory:actorPerson",
-      "name": "PTC",
-      "id": "shape_0807",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 397,
-      "y": 242
-    },
-    {
-      "type": "domainStory:actorSystem",
-      "name": "EPR or Order Comms",
-      "id": "shape_7423",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 817,
-      "y": 102
-    },
-    {
       "type": "domainStory:workObjectDocument",
-      "name": "Laboratory Order",
-      "id": "shape_7138",
+      "name": "Blood Tests Results",
+      "id": "shape_4750",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
-      "pickedColor": "black",
-      "x": 622,
-      "y": 128
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "Blood Sample",
-      "id": "shape_5525",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 602,
-      "y": 432
-    },
-    {
-      "type": "domainStory:actorPerson",
-      "name": "Community Nurse or POSCU",
-      "id": "shape_3221",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 810,
-      "y": 432
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "Laboratory Order",
-      "id": "shape_2300",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 1042,
-      "y": 102
-    },
-    {
-      "type": "domainStory:actorPerson",
-      "name": "laboratory",
-      "id": "shape_6785",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 1272,
-      "y": 242
-    },
-    {
-      "type": "domainStory:workObjectDocument",
-      "name": "Specimen",
-      "id": "shape_3670",
-      "$type": "Element",
-      "di": {},
-      "$descriptor": {},
-      "pickedColor": "black",
-      "x": 817,
-      "y": 232
+      "x": 632,
+      "y": 602
     },
     {
       "type": "domainStory:workObjectDocument",
@@ -112,8 +34,96 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "x": 1112,
-      "y": 432
+      "x": 1187,
+      "y": 482
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Specimen",
+      "id": "shape_3670",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 892,
+      "y": 282
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "laboratory",
+      "id": "shape_6785",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1347,
+      "y": 292
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Laboratory Order",
+      "id": "shape_2300",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 1117,
+      "y": 152
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "Community Nurse or POSCU",
+      "id": "shape_3221",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 885,
+      "y": 482
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Blood Sample",
+      "id": "shape_5525",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 642,
+      "y": 472
+    },
+    {
+      "type": "domainStory:workObjectDocument",
+      "name": "Laboratory Order",
+      "id": "shape_7138",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 697,
+      "y": 178
+    },
+    {
+      "type": "domainStory:actorSystem",
+      "name": "EPR or Order Comms",
+      "id": "shape_7423",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 892,
+      "y": 92
+    },
+    {
+      "type": "domainStory:actorPerson",
+      "name": "PTC",
+      "id": "shape_0807",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "x": 442,
+      "y": 429
     },
     {
       "type": "domainStory:activity",
@@ -123,26 +133,26 @@
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 1,
+      "number": 2,
       "waypoints": [
         {
           "original": {
-            "x": 467,
-            "y": 270
+            "x": 880,
+            "y": 480
           },
-          "x": 467,
-          "y": 270
+          "x": 880,
+          "y": 480
         },
         {
           "original": {
-            "x": 622,
-            "y": 177
+            "x": 697,
+            "y": 227
           },
-          "x": 622,
-          "y": 177
+          "x": 723,
+          "y": 263
         }
       ],
-      "source": "shape_0807",
+      "source": "shape_3221",
       "target": "shape_7138",
       "multipleNumberAllowed": false
     },
@@ -158,19 +168,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 692,
-            "y": 155
+            "x": 767,
+            "y": 205
           },
-          "x": 692,
-          "y": 155
+          "x": 767,
+          "y": 205
         },
         {
           "original": {
-            "x": 817,
-            "y": 155
+            "x": 892,
+            "y": 145
           },
-          "x": 817,
-          "y": 155
+          "x": 892,
+          "y": 145
         }
       ],
       "source": "shape_7138",
@@ -178,29 +188,29 @@
     },
     {
       "type": "domainStory:activity",
-      "name": "requests",
+      "name": "asked for",
       "id": "connection_2293",
       "$type": "Element",
       "di": {},
       "$descriptor": {},
       "pickedColor": "black",
-      "number": 2,
+      "number": 1,
       "waypoints": [
         {
           "original": {
-            "x": 464,
-            "y": 303
+            "x": 509,
+            "y": 490
           },
-          "x": 464,
-          "y": 303
+          "x": 509,
+          "y": 490
         },
         {
           "original": {
-            "x": 602,
-            "y": 450
+            "x": 642,
+            "y": 490
           },
-          "x": 602,
-          "y": 450
+          "x": 642,
+          "y": 490
         }
       ],
       "source": "shape_0807",
@@ -209,7 +219,7 @@
     },
     {
       "type": "domainStory:activity",
-      "name": "to be collected by",
+      "name": "to be taken",
       "id": "connection_3823",
       "$type": "Element",
       "di": {},
@@ -219,19 +229,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 682,
-            "y": 470
+            "x": 722,
+            "y": 510
           },
-          "x": 682,
-          "y": 470
+          "x": 723,
+          "y": 510
         },
         {
           "original": {
-            "x": 810,
-            "y": 469
+            "x": 885,
+            "y": 519
           },
-          "x": 810,
-          "y": 469
+          "x": 885,
+          "y": 519
         }
       ],
       "source": "shape_5525",
@@ -250,19 +260,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 855,
-            "y": 435
+            "x": 930,
+            "y": 485
           },
-          "x": 855,
-          "y": 435
+          "x": 930,
+          "y": 485
         },
         {
           "original": {
-            "x": 855,
-            "y": 317
+            "x": 930,
+            "y": 367
           },
-          "x": 855,
-          "y": 317
+          "x": 930,
+          "y": 367
         }
       ],
       "source": "shape_3221",
@@ -281,19 +291,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 855,
-            "y": 232
+            "x": 930,
+            "y": 282
           },
-          "x": 855,
-          "y": 232
+          "x": 930,
+          "y": 282
         },
         {
           "original": {
-            "x": 855,
-            "y": 187
+            "x": 930,
+            "y": 177
           },
-          "x": 855,
-          "y": 187
+          "x": 930,
+          "y": 177
         }
       ],
       "source": "shape_3670",
@@ -311,19 +321,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 893,
-            "y": 136
+            "x": 969,
+            "y": 126
           },
-          "x": 894,
-          "y": 136
+          "x": 969,
+          "y": 126
         },
         {
           "original": {
-            "x": 1042,
-            "y": 142
+            "x": 1117,
+            "y": 192
           },
-          "x": 1042,
-          "y": 142
+          "x": 1117,
+          "y": 192
         }
       ],
       "source": "shape_7423",
@@ -342,19 +352,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 1123,
-            "y": 140
+            "x": 1198,
+            "y": 190
           },
-          "x": 1123,
-          "y": 140
+          "x": 1198,
+          "y": 190
         },
         {
           "original": {
-            "x": 1272,
-            "y": 295
+            "x": 1347,
+            "y": 345
           },
-          "x": 1272,
-          "y": 295
+          "x": 1347,
+          "y": 345
         }
       ],
       "source": "shape_2300",
@@ -372,19 +382,19 @@
       "waypoints": [
         {
           "original": {
-            "x": 1322,
-            "y": 319
+            "x": 1384,
+            "y": 377
           },
-          "x": 1309,
-          "y": 327
+          "x": 1384,
+          "y": 377
         },
         {
           "original": {
-            "x": 1138,
-            "y": 432
+            "x": 1213,
+            "y": 482
           },
-          "x": 1138,
-          "y": 432
+          "x": 1213,
+          "y": 482
         }
       ],
       "source": "shape_6785",
@@ -403,23 +413,85 @@
       "waypoints": [
         {
           "original": {
-            "x": 1112,
-            "y": 477
+            "x": 1187,
+            "y": 527
           },
-          "x": 1112,
-          "y": 477
+          "x": 1187,
+          "y": 527
         },
         {
           "original": {
-            "x": 890,
-            "y": 480
+            "x": 965,
+            "y": 530
           },
-          "x": 890,
-          "y": 480
+          "x": 965,
+          "y": 530
         }
       ],
       "source": "shape_0066",
       "target": "shape_3221"
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "Send",
+      "id": "connection_2948",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": 6,
+      "waypoints": [
+        {
+          "original": {
+            "x": 923,
+            "y": 520
+          },
+          "x": 885,
+          "y": 537
+        },
+        {
+          "original": {
+            "x": 679,
+            "y": 629
+          },
+          "x": 695,
+          "y": 622
+        }
+      ],
+      "source": "shape_3221",
+      "target": "shape_4750",
+      "multipleNumberAllowed": false
+    },
+    {
+      "type": "domainStory:activity",
+      "name": "to",
+      "id": "connection_5798",
+      "$type": "Element",
+      "di": {},
+      "$descriptor": {},
+      "pickedColor": "black",
+      "number": null,
+      "waypoints": [
+        {
+          "original": {
+            "x": 670,
+            "y": 640
+          },
+          "x": 632,
+          "y": 610
+        },
+        {
+          "original": {
+            "x": 470,
+            "y": 484
+          },
+          "x": 495,
+          "y": 504
+        }
+      ],
+      "source": "shape_4750",
+      "target": "shape_0807",
+      "multipleNumberAllowed": false
     },
     {
       "info": ""
